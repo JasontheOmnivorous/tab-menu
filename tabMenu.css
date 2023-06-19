@@ -1,0 +1,36 @@
+body {
+    background-color: #2d3f50;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+.tabMenus {
+    position: relative;
+}
+
+/* to make the slider stick to the buttons, we must delete their ancestor(ul)'s margin and padding */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    background-color: #da4353;
+    padding: 10px 20px;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.slider {
+    height: 5px;
+    background-color: #46cfb0;
+    transition: all 0.5s ease-in-out;
+}
